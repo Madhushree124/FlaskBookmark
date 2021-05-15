@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+</head>
+<body>
+
+<h1>Bookmarks</h1>
+
+
+</body>
+        <!-- A vertical navbar -->
+<nav class="navbar bg-light">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="Sort by Title">
+        <a class="nav-link" href="#">Sort by Title</a>
+      </li>
+      <li class="Sort by Labels">
+        <a class="nav-link" href="#">Sort by Labels</a>
+      </li>
+      <li class="Sort by Date">
+        <a class="nav-link" href="#">Sort by Date</a>
+      </li>
+    </ul>
+  
+  </nav>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+          }
+          
+          li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+          }
+          
+          /* Change the link color on hover */
+          li a:hover {
+            background-color: #555;
+            color: white;
+          }
+    </style>
+</html>
+
